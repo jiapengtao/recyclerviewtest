@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         rvTest = findViewById(R.id.rv_test);
         for (int i = 0; i < 100; i++) {
             DataBean dataBean = new DataBean();
-            dataBean.setText("第" + (i + 1) + "条数据");
+            dataBean.setText("第" + (i + 1) + "条数据"); 
             data.add(dataBean);
         }
 
